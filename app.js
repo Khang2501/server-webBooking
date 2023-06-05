@@ -1,8 +1,5 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
-
-const Hotel = require("./models/hotel");
 
 const mongoose = require("mongoose");
 const userRouter = require("./router/user");
